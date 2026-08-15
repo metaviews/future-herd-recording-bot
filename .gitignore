@@ -1,0 +1,36 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Runtime output
+recordings/
+logs/
+*.wav
+*.mp3
+*.ogg
+*.opus
+*.flac
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local test artifacts
+.tmp/
+.tmp-*/
+
+# Keep the directory available in a fresh checkout without committing recordings
+!recordings/.gitkeep
+!logs/.gitkeep
